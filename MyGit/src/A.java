@@ -4,9 +4,9 @@ public class A {
 		System.out.println("Hello Git");
 		B b=new B();
 		b.sayHello();
-		System.out.println("Change in Master branch!");
-
 		
-
+		C c=new C();
+		c.sayHaha();
+		System.out.println("Change in devC branch!");
 	}
 }
